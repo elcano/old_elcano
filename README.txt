@@ -2,6 +2,19 @@ Welcome to the Elcano autonomous tricycle project!
 Please see:
 http://www.elcanoproject.org/
 
+The Elcano Project is an autonomous vehicle control system that runs on a stack of microprocessors, with no operating system and no machine learning.
+The Elcano/Elcano repository  used to hold everything, but it is deprecated as of June 2, 2019. 
+Elcano/old_elcano has not been updated since June 2018. It was the previous version of Elcano/elcano.
+All future files should go into the repository for the specific microprocessor. Files that span more than one processor are kept in Elcano/General. The other repositories are:
+Elcano/LowLevel – Drive by wire
+Elcano/HighLevel – Localization, Route Finding and Pilot
+Elcano/Sonar – Detects obstacles from ultrasonic sensors
+Elcano/Sweep – Scanse Sweep Lidar for Obstacle Detection
+Elcano/QDED – Quadrature Edge Detectors for machine vision
+Elcano/Transceiver – Transmit and receive boards for remote control option
+
+__________________________________________________
+
 To get started, fork and clone the repository:
 https://github.com/elcano/elcano
 
